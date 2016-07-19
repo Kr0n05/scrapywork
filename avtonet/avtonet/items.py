@@ -8,7 +8,9 @@
 import scrapy
 
 
-class AvtonetItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class AvtoNetItem(scrapy.Item):
+    brand = scrapy.Field()
+    model = scrapy.Field()
+    year = scrapy.Field()
+    price = scrapy.Field()
+    kilometers = scrapy.Field()
